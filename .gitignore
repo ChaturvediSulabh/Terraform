@@ -1,0 +1,9 @@
+# ignore vscode workspace
+./Terraform.code-workspace
+# ignore .terraform directory and all files (contains info like providers)
+*/.terraform/
+# ignore tfstate and tfstate backup files
+*/terraform.tfstate.d/
+*/terraform.tfstate*
+# terraform.tfvars
+*/terraform.tfvars
